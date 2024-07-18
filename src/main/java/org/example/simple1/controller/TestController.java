@@ -12,7 +12,7 @@ public class TestController {
     public MemberDto test() {
         MemberDto memberDto = new MemberDto();
         memberDto.setName("자동화빌드ㅇㄹㅇ");
-        memberDto.setAge(32222222222);
+        memberDto.setAge(32222);
         return memberDto;
     }
 }
