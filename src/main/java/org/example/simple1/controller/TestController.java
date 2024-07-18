@@ -11,8 +11,8 @@ public class TestController {
     @GetMapping("/")
     public MemberDto test() {
         MemberDto memberDto = new MemberDto();
-        memberDto.setName("동화빌드ㅇㄹㅇ");
-        memberDto.setAge(32222);
+        memberDto.setName("빌드ㅇㄹㅇ");
+        memberDto.setAge(322);
         return memberDto;
     }
 }
